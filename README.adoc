@@ -246,7 +246,8 @@ e. { _AB_ → _C_, _C_ → _D_, _BD_ → _E_ }
 reglas de Armstrong.
 
 6. Hallar la clausura de atributos para cada uno de los siguientes
-conjuntos de dependencias funcionales que aparecen a continuación.
+conjuntos de dependencias funcionales, considerando la relación
+_R(X, Y, Z, S, T, U, V, W)_:
 
 a. Dado { _X_ → _YT_, _YW_ → _Z_, _TZ_ → _U_, _U_ → _V_ }, obtener _XW⁺_
 y _X⁺_.
