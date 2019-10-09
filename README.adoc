@@ -86,7 +86,7 @@ adoptivos.
 . La veterinaria "Pet Shop of Horrors" necesita llevar un control
 informatizado de su gestión. De cada animal—ó paciente—se desea guardar
 el código, el nombre, el tipo de animal, la raza, y el año de
-nacimiento. De cada dueñe de cada animal se desea guardar el nombre,
+nacimiento. De cada dueñe de cada animal se desea guardar nombre,
 apellido, dirección, y teléfono.
 +
 También, se desea llevar un control de cada una de las veces que se
@@ -103,9 +103,9 @@ vacuna contra la rabia, y de les gates se desea registrar el color de su
 pelaje.
 +
 Un problema adicional que tienen en esta veterinaria, es que suele
-suceder que les animales que están siendo atendidos, ante una
+suceder que les animales que están siendo atendides, ante una
 distracción de les veterinaries, se pelean entre elles, y les
-veterinaries por temor a lastimarse elles mismes no los separan. Le
+veterinaries por temor a lastimarse elles mismes no les separan. Le
 propietarie de la veterinaria ha puesto un premio para cada veterinarie
 que separa a les animales que se pelean. Por lo tanto, se desean
 registrar les animales que participaron en la pelea, y le veterinarie
@@ -186,7 +186,7 @@ Además, sabemos que:
 1. Dadas las siguientes relaciones, indicar cuáles son las dependencias
 funcionales no triviales que se deberían cumplir.
 
-a. alumne(nro_legajo, nombre, apellido, dni, carrera, facultad, materia,
+a. alumne(nro_legajo, nombre, apellido, dni, carrera, materia,
 nota_final).
 
 b. empleade(legajo, nombre, apellido, dpto, legajo_jefe_dpto, f_ingreso,
@@ -395,7 +395,8 @@ Suponer que:
 
 - Todas las cervezas son servidas en al menos un bar.
 
-- Todos los bebedores frecuentan al menos un bar.
+- Todes les bebedores frecuentan al menos un bar, y les gusta al menos
+una cerveza.
 
 - Todos los bares sirven al menos una cerveza.
 --
@@ -404,18 +405,20 @@ Obtener mediante álgebra relacional:
 
 a. Los nombres de todos los bares.
 
-b. Los nombres de todos los bebedores.
+b. Los nombres de todes les bebedores.
 
 c. Las cervezas que le gustan a Juan y que son servidas en el bar
 Rockeria.
 
-d. Los bares que sirven todas las cervezas que le gustan a Juan.
+d. Los bares que sirven todas las cervezas que le gustan a Misato
+Katsuragi.
 
-e. Los bares que sirven todas las cervezas que le gustan a Juan y a
-Pedro
+e. Los bares que sirven todas las cervezas que le gustan a Misato
+Katsuragi y a Ritsuko Akagi.
 
-f. Los bebedores que van a bares que sólo sirven cervezas que les
-gustan.
+// Este ejercicio es muuucho muy rebuscado, mejor lo sacamos.
+//f. Los bebedores que van a bares que sólo sirven cervezas que les
+//gustan.
 
 === Parte II: SQL
 
@@ -439,12 +442,12 @@ parte.
 === Parte I: Stored Procedures
 
 1. Escribir una función que reciba un número de legajo y que devuelva el
-nombre y apellido del alumne.
+nombre y apellido de le alumne.
 
 2. Escribir una función que reciba un mid, un bid y una fecha, y que
 realice una reserva. Si ese bote no estuviera libre, debe buscar otro
-bote libre del mismo color y reservarlo. Suponer que existe algún bote
-libre.
+bote libre del mismo color y reservarlo. Suponer que siempre existe
+algún bote libre.
 
 3. Escribir una función que reciba une marine y que diga si alquiló
 todos los botes.
