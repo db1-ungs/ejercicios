@@ -407,7 +407,7 @@ a. Los nombres de todos los bares.
 
 b. Los nombres de todes les bebedores.
 
-c. Las cervezas que le gustan a Juan y que son servidas en el bar
+c. Las cervezas que le gustan a Barney y que son servidas en el bar
 Rockeria.
 
 d. Los bares que sirven todas las cervezas que le gustan a Misato
@@ -417,7 +417,7 @@ e. Los bares que sirven todas las cervezas que le gustan a Misato
 Katsuragi y a Ritsuko Akagi.
 
 // Este ejercicio es muuucho muy rebuscado, mejor lo sacamos.
-//f. Los bebedores que van a bares que sólo sirven cervezas que les
+//f. Les bebedores que van a bares que sólo sirven cervezas que les
 //gustan.
 
 === Parte II: SQL
