@@ -384,9 +384,9 @@ o. Obtener las fechas en que están reservados todos los botes.
 
 2. Dadas las siguientes relaciones
 +
-gusta(bebedor, cerveza)
+gusta(bebedore, cerveza)
 +
-frecuenta(bebedor, bar)
+frecuenta(bebedore, bar)
 +
 sirve(bar, cerveza)
 +
