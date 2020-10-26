@@ -357,7 +357,7 @@ b. Obtener los nombres de les marines que se inscribieron después del
 c. Obtener los nombres de les marines que se inscribieron durante el año
 2012.
 
-d. Obtener los números de botes alquilados por le marine número 100.
+d. Obtener los bid's de los botes alquilados por le marine número 3.
 
 e. Obtener los nombres de les marines que alquilaron el bote "Macross".
 
