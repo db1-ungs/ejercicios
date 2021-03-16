@@ -75,12 +75,12 @@ en cada circo puede haber más de una actuación, aún correspondiente a
 distintes payases. Cada actuación tiene un nombre y un precio de
 entrada. Cada circo tiene un nombre, y una fecha de fundación.
 
-. El Registro Civil de las Personas, desea llevar el registro de todas
+. El Registro Civil de las Personas, desea llevar un registro de todas
 las personas. De cada persona se conoce su primer y segundo nombre, su
-apellido, su fecha de nacimiento y su número de DNI. También se desea
+apellido, su fecha de nacimiento, y su número de DNI. También se desea
 llevar registro acerca de quienes se han casado, y con quién.
-Adicionalmente, se desea llevar un registro de quienes son los padres
-biológicos de cada persona, y eventualmente, de quienes son los padres
+Adicionalmente, se desea llevar un registro de quienes son los xadres
+biológicos de cada persona, y eventualmente, de quienes son los xadres
 adoptivos.
 
 . La veterinaria "Pet Shop of Horrors" necesita llevar un control
