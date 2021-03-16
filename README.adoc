@@ -79,8 +79,8 @@ entrada. Cada circo tiene un nombre, y una fecha de fundación.
 las personas. De cada persona se conoce su primer y segundo nombre, su
 apellido, su fecha de nacimiento, y su número de DNI. También se desea
 llevar registro acerca de quienes se han casado, y con quién.
-Adicionalmente, se desea llevar un registro de quienes son los xadres
-biológicos de cada persona, y eventualmente, de quienes son los xadres
+Adicionalmente, se desea llevar un registro de quienes son les xadres
+biológicos de cada persona, y eventualmente, de quienes son les xadres
 adoptivos.
 
 . La veterinaria "Pet Shop of Horrors" necesita llevar un control
