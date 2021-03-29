@@ -26,12 +26,12 @@ varies clientes. Los productos son suministrados por diferentes
 proveedores. Se debe tener en cuenta que un producto sólo puede ser
 suministrado por une proveedore, y que une proveedore puede suministrar
 diferentes productos. De cada proveedore se desea conocer su CUIT,
-nombre, y dirección.
+nombre, y dirección.
 
 . Una tienda de música desea modelar a les compositores de sinfonías, a
 las sinfonías, y a la relación entre ambes. De les compositores se
 conoce su nombre y su fecha de nacimiento, mientras que de cada sinfonía
-se conoce el nombre de su compositore, el género, la tonalidad, y los
+se conoce el nombre de su compositore, el género, la tonalidad, y los
 distintos instrumentos que se utilizan para su ejecución.
 
 . La panadería y confitería "El Churro de Chocolate" está organizando el
@@ -42,7 +42,7 @@ puede ser atendide por más de une repartidore, ó por ningune. A cada
 zona se le asigna une repartidore como jefe de esa zona. Une repartidore
 puede ser jefe de varias zonas ó de ninguna. De les repartidores se
 conoce el nombre y legajo. De les clientes se conoce el nombre,
-teléfono, dirección, y la fecha de la primera compra.
+teléfono, dirección, y la fecha de la primera compra.
 
 . Modificar el DER anterior para que se pueda registrar cada vez que se
 realiza una entrega a domicilio, le repartidore que la realizó, la fecha
@@ -53,8 +53,8 @@ clientes y de sus preferencias. De cada persona, identificada por su
 documento de identidad, se conoce su nombre, el restaurante que más
 frecuenta, y las comidas que más le gustan. De cada restaurante,
 identificado por su nombre, se conoce las comidas que preparan. De cada
-comida se conoce el nombre que la identifica, el tiempo de preparación,
-y los ingredientes que lleva y en qué cantidades. De los ingredientes se
+comida se conoce el nombre que la identifica, el tiempo de preparación,
+y los ingredientes que lleva y en qué cantidades. De los ingredientes se
 conoce, nombre, proveedore, precio, y unidad en la que esta expresado el
 precio.
 
@@ -68,28 +68,28 @@ precio.
 . La cooperativa de payases "Berumoddo" coordina las actuaciones de sus
 payases integrantes. Les payases tienen sus propias actuaciones—pueden
 tener más de una. De les payases se conoce su nombre y edad. Cada
-actuación pertenece a une únique payase y se pone en escena en un circo.
-De acuerdo al convenio que firmó, la cooperativa con la "Asociación de
+actuación pertenece a une únique payase y se pone en escena en un circo.
+De acuerdo al convenio que firmó, la cooperativa con la "Asociación de
 Circos Peronistas", las actuaciones son exclusivas para cada circo, pero
-en cada circo puede haber más de una actuación, aún correspondiente a
-distintes payases. Cada actuación tiene un nombre y un precio de
+en cada circo puede haber más de una actuación, aún correspondiente a
+distintes payases. Cada actuación tiene un nombre y un precio de
 entrada. Cada circo tiene un nombre, y una fecha de fundación.
 
 . El Registro Civil de las Personas, desea llevar un registro de todas
 las personas. De cada persona se conoce su primer y segundo nombre, su
-apellido, su fecha de nacimiento, y su número de DNI. También se desea
-llevar registro acerca de quienes se han casado, y con quién.
+apellido, su fecha de nacimiento, y su número de DNI. También se desea
+llevar registro acerca de quienes se han casado, y con quién.
 Adicionalmente, se desea llevar un registro de quienes son les xadres
 biológicos de cada persona, y eventualmente, de quienes son les xadres
 adoptivos.
 
 . La veterinaria "Pet Shop of Horrors" necesita llevar un control
 informatizado de su gestión. De cada animal—ó paciente—se desea guardar
-el código, el nombre, el tipo de animal, la raza, y el año de
+el código, el nombre, el tipo de animal, la raza, y el año de
 nacimiento. De cada dueñe de cada animal se desea guardar nombre,
-apellido, dirección, y teléfono.
+apellido, dirección, y teléfono.
 +
-También, se desea llevar un control de cada una de las veces que se
+También, se desea llevar un control de cada una de las veces que se
 atiende a une animal, registrando la fecha, el diagnostico, el
 tratamiento, le veterinarie que le atendió, y el costo de la consulta.
 La veterinaria tiene varies veterinaries, de les cuales se desea
@@ -104,7 +104,7 @@ pelaje.
 +
 Un problema adicional que tienen en esta veterinaria, es que suele
 suceder que les animales que están siendo atendides, ante una
-distracción de les veterinaries, se pelean entre elles, y les
+distracción de les veterinaries, se pelean entre elles, y les
 veterinaries por temor a lastimarse elles mismes no les separan. Le
 propietarie de la veterinaria ha puesto un premio para cada veterinarie
 que separa a les animales que se pelean. Por lo tanto, se desean
@@ -141,7 +141,7 @@ Además, sabemos que:
 - Cada médique trabaja en un único hospital.
 
 - Cada hospital trabaja con muchos laboratorios, y un laboratorio presta
-  servicios a más de un hospital. Nos interesa conocer la descripción de
+  servicios a más de un hospital. Nos interesa conocer la descripción de
   cada servicio prestado por el laboratorio a un hospital, y la fecha en
   que se realizó.
 
@@ -162,7 +162,7 @@ Además, sabemos que:
 //distintos productos. Las colonias sólo comercian con el país
 //colonizador. En ambos casos, del producto comerciado se conoce un código
 //que lo identifica, y el nombre. Las relaciones de comercio posibles son
-//de importación y de exportación de productos. También forma parte de la
+//de importación y de exportación de productos. También forma parte de la
 //base de datos la información de los límites entre países—i.e. qué países
 //limitan con un país dado.
 
@@ -317,7 +317,7 @@ Indicar en qué forma normal se encuentra la relación f1.
 *Ejercicio 1b de Dependencias Funcionales*, indicar en que forma normal
 se encuentra la relación empleade.
 
-5. Hallar las claves e indicar en qué forma normal se encuentra la
+5. Hallar las claves e indicar en qué forma normal se encuentra la
 relación _R(A, B, C, D, E, F, G)_ con respecto a los siguientes
 conjuntos de dependencias funcionales:
 
@@ -441,18 +441,18 @@ parte.
 
 === Parte I: Stored Procedures
 
-1. Escribir una función que reciba un número de legajo y que devuelva el
+1. Escribir una función que reciba un número de legajo y que devuelva el
 nombre y apellido de le alumne.
 
-2. Escribir una función que reciba un mid, un bid y una fecha, y que
+2. Escribir una función que reciba un mid, un bid y una fecha, y que
 realice una reserva. Si ese bote no estuviera libre, debe buscar otro
 bote libre del mismo color y reservarlo. Suponer que siempre existe
 algún bote libre.
 
-3. Escribir una función que reciba une marine y que diga si alquiló
+3. Escribir una función que reciba une marine y que diga si alquiló
 todos los botes.
 
-4. Escribir una función que reciba dos bebedores y que muestre todos los
+4. Escribir una función que reciba dos bebedores y que muestre todos los
 bares que sirven todas las cervezas que le gustan a eses dos bebedores.
 
 === Parte II: Triggers
