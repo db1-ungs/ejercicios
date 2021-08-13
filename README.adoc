@@ -80,8 +80,8 @@ las personas. De cada persona se conoce su primer y segundo nombre, su
 apellido, su fecha de nacimiento, y su número de DNI. También se desea
 llevar registro acerca de quienes se han casado, y con quién.
 Adicionalmente, se desea llevar un registro de quienes son les xadres
-biológicos de cada persona, y eventualmente, de quienes son les xadres
-adoptivos.
+biológiques de cada persona, y eventualmente, de quienes son les xadres
+adoptives.
 
 . La veterinaria "Pet Shop of Horrors" necesita llevar un control
 informatizado de su gestión. De cada animal—ó paciente—se desea guardar
