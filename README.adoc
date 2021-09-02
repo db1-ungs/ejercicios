@@ -300,16 +300,16 @@ b. Decir en qué forma normal se encuentra _R_. Justificar.
 3. Dada la siguiente relación con su conjunto de dependencias
 funcionales:
 +
-f1(piloto, escudería, circuito, cant_vueltas, long_circuito, año,
+f1(pilote, escudería, circuito, cant_vueltas, long_circuito, año,
 posición, tiempo)
 +
-piloto circuito año → posición tiempo
+pilote circuito año → posición tiempo
 +
 circuito → long_circuito
 +
 circuito año → cant_vueltas
 +
-piloto año → escudería
+pilote año → escudería
 +
 Indicar en qué forma normal se encuentra la relación f1.
 
