@@ -48,15 +48,15 @@ teléfono, dirección, y la fecha de la primera compra.
 realiza una entrega a domicilio, le repartidore que la realizó, la fecha
 y hora de la entrega y el monto pagado por le cliente.
 
-. Una cadena de restaurantes ha relevado información acerca de les
-clientes y de sus preferencias. De cada persona, identificada por su
-documento de identidad, se conoce su nombre, el restaurante que más
-frecuenta, y las comidas que más le gustan. De cada restaurante,
-identificado por su nombre, se conoce las comidas que preparan. De cada
-comida se conoce el nombre que la identifica, el tiempo de preparación,
-y los ingredientes que lleva y en qué cantidades. De los ingredientes se
-conoce, nombre, proveedore, precio, y unidad en la que esta expresado el
-precio.
+. La cadena de restaurantes "La Angioplastía" ha relevado información
+acerca de les clientes y de sus preferencias. De cada persona,
+identificada por su documento de identidad, se conoce su nombre, el
+restaurante que más frecuenta, y las comidas que más le gustan. De cada
+restaurante, identificado por su nombre, se conocen las comidas que
+preparan. De cada comida se conoce el nombre que la identifica, el
+tiempo de preparación, y los ingredientes que lleva y en qué cantidades.
+De los ingredientes se conoce, nombre, proveedore, precio, y unidad en
+la que está expresado el precio.
 
 . Modificar el DER anterior considerando los siguientes cambios:
 
