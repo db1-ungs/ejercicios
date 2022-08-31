@@ -441,19 +441,24 @@ parte.
 
 === Parte I: Stored Procedures
 
-1. Escribir una función que reciba un número de legajo y que devuelva el
-nombre y apellido de le alumne.
+1. Escribir una función que se llame `buscar_alumne()`, y que reciba un
+número de legajo, y que devuelva el nombre y apellido de le alumne.
 
-2. Escribir una función que reciba un mid, un bid y una fecha, y que
-realice una reserva. Si ese bote no estuviera libre, debe buscar otro
-bote libre del mismo color y reservarlo. Suponer que siempre existe
-algún bote libre.
+2. Escribir una función, `reservar_bote()`, que reciba como parámetros,
+un `mid`, un `bid`, y una `fecha`, y que realice una reserva. Si el bote
+solicitado no estuviera libre, se debe buscar otro bote libre del mismo
+color y reservarlo. Suponer que siempre existe algún bote libre.
 
-3. Escribir una función que reciba une marine y que diga si alquiló
-todos los botes.
+3. Escribir una función, `alquilaste_todos()` que reciba el `mid` de une
+marine y que diga si alquiló todos los botes (`true` ó `false`).
 
-4. Escribir una función que reciba dos bebedores y que muestre todos los
-bares que sirven todas las cervezas que le gustan a eses dos bebedores.
+4. Escribir una función, `materia_cursada_por_todes()`, que devuelva el
+código de la materia cursada por todes les alumnes. Suponer que existe
+una única materia que cumple lo solicitado.
+
+5. Escribir una función `bares_con_cervezas_para_ambes()` que reciba dos
+bebedores y que muestre los bares que sirven todas las cervezas que le
+gustan a ambes bebedores.
 
 === Parte II: Triggers
 
