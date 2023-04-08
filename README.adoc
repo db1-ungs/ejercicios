@@ -345,9 +345,9 @@ bote([underline]#bid#, nombre, color)
 +
 marine([underline]#mid#, nombre, puntaje, f_inscripcion)
 +
-alquiler([underline]#bid#, [underline]#mid#, fecha)
+alquiler([underline]#bid, mid, fecha#)
 +
-reserva([underline]#bid#, [underline]#mid#, fecha)
+reserva([underline]#bid, mid, fecha#)
 
 a. Obtener los nombres de los botes rojos.
 
