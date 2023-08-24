@@ -242,7 +242,7 @@ d. { _A_ → _B_, _BD_ → _C_ }
 
 e. { _AB_ → _C_, _C_ → _D_, _BD_ → _E_ }
 
-5. Demostrar las reglas de descomposición y de pseudo transitividad usando las
+5. Demostrar las reglas de descomposición y pseudo transitividad usando las
 reglas de Armstrong.
 
 6. Hallar la clausura de atributos para cada uno de los siguientes
