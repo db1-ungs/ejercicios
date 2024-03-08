@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<meta name="author" content="v2, 2023-04-08">
+<meta name="author" content="v2, 2024-03-08">
 <title>Bases de Datos I: Prácticas</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -442,7 +442,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Bases de Datos I: Prácticas</h1>
 <div class="details">
-<span id="author" class="author">v2, 2023-04-08</span><br>
+<span id="author" class="author">v2, 2024-03-08</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Contenidos</div>
@@ -1069,6 +1069,43 @@ Katsuragi y a Ritsuko Akagi.</p>
 </ol>
 </div>
 </li>
+<li>
+<p>Dadas las siguientes relaciones</p>
+<div class="paragraph">
+<p>libro(<span class="underline">id_libro</span>, titulo, autore, editorial)</p>
+</div>
+<div class="paragraph">
+<p>socie(<span class="underline">id_socie</span>, nombre, direccion, localidad)</p>
+</div>
+<div class="paragraph">
+<p>prestamo(<span class="underline">id_libro, id_socie, fecha</span>, cant_dias)</p>
+</div>
+<div class="paragraph">
+<p>Obtener mediante álgebra relacional:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha">
+<li>
+<p>El nombre y la dirección de les socies que pidieron prestados a la
+biblioteca todos los libros escritos por Borges.</p>
+</li>
+<li>
+<p>El id de les socies de Grand Bourg que nunca pidieron prestado un
+libro de la editorial Sudamericana.</p>
+</li>
+<li>
+<p>El titulo de los libros de la editorial Planeta que fueron prestados
+tanto a socies de San Miguel como a socies de Los Polvorines.</p>
+</li>
+<li>
+<p>Los préstamos realizados a socies de José C. Paz por más de 5 días y
+los realizados a socies de Bella Vista por más de 3 días. Se pide
+mostrar el nombre de le socie, el título del libro y la fecha del
+préstamo.</p>
+</li>
+</ol>
+</div>
+</li>
 </ol>
 </div>
 </div>
@@ -1167,7 +1204,7 @@ la tabla cliente_vip (si todavía no está insertado en esa tabla).</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-04-08 13:51:43 -0300
+Last updated 2024-03-08 18:43:15 -0300
 </div>
 </div>
 </body>
