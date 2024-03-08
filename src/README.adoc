@@ -419,7 +419,6 @@ Katsuragi y a Ritsuko Akagi.
 //f. Les bebedores que van a bares que sólo sirven cervezas que les
 //gustan.
 
-
 3. Dadas las siguientes relaciones
 +
 libro([underline]#id_libro#, titulo, autore, editorial)
@@ -431,15 +430,15 @@ prestamo([underline]#id_libro, id_socie, fecha#, cant_dias)
 Obtener mediante álgebra relacional:
 
 a. El nombre y la dirección de les socies que pidieron prestados a la
-biblioteca todos los libros escritos por Borges.
+biblioteca, todos los libros escritos por Borges.
 
 b. El id de les socies de Grand Bourg que nunca pidieron prestado un
 libro de la editorial Sudamericana.
 
-c. El titulo de los libros de la editorial Planeta que fueron prestados
+c. El título de los libros de la editorial Planeta que fueron prestados
 tanto a socies de San Miguel como a socies de Los Polvorines.
 
-d. Los préstamos realizados a socies de José C. Paz por más de 5 días y
+d. Los préstamos realizados a socies de José C. Paz por más de 5 días, y
 los realizados a socies de Bella Vista por más de 3 días. Se pide
 mostrar el nombre de le socie, el título del libro y la fecha del
 préstamo.
