@@ -251,9 +251,9 @@ _TV_, _T_ → _X_ }, obtener _XY⁺_, _S⁺_ y _ST⁺_.
 6. Demostrar que los siguientes conjuntos de dependencias funcionales son
 equivalentes entre sí.
 +
-_F_ = {_A_ → _C_, _AC_ → _D_, _E_ → _AD_, _E_ → _H_}
+_F_ = { _A_ → _C_, _AC_ → _D_, _E_ → _AD_, _E_ → _H_ }
 +
-_G_ = {_AC_ → _D_, _E_ → _AH_}
+_G_ = { _AC_ → _D_, _E_ → _AH_ }
 
 7. Dada la relación _R(A, B, C, D, E, F, G, H)_, hallar el cubrimiento
 minimal de los siguientes conjuntos de dependencias funcionales, e
