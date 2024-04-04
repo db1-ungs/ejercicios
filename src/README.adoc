@@ -229,23 +229,10 @@ d. { _A_ → _B_, _BD_ → _C_ } ⊨ { _AD_ → _BC_ }
 
 e. { _AB_ → _C_, _C_ → _D_, _BD_ → _E_ } ⊨ { _A_ → _ABCDE_ }
 
-4. Dada la relación _R(A, B, C, D, E)_ encontrar *todas* las claves de
-_R_ con respecto a los siguientes conjuntos de dependencias funcionales.
-
-a. { _A_ → _BC_, _C_ → _DE_ }
-
-b. { _A_ → _B_, _B_ → _C_, _C_ → _D_ }
-
-c. { _A_ → _B_, _B_ → _C_, _C_ → _D_, _D_ → _A_ }
-
-d. { _A_ → _B_, _BD_ → _C_ }
-
-e. { _AB_ → _C_, _C_ → _D_, _BD_ → _E_ }
-
-5. Demostrar las reglas de descomposición y de pseudo transitividad usando las
+4. Demostrar las reglas de descomposición y de pseudo transitividad usando las
 reglas de Armstrong.
 
-6. Hallar la clausura de atributos para cada uno de los siguientes
+5. Hallar la clausura de atributos para cada uno de los siguientes
 conjuntos de dependencias funcionales, considerando la relación
 _R(X, Y, Z, S, T, U, V, W)_:
 
@@ -261,6 +248,13 @@ obtener _U⁺_, _UW⁺_ y _W⁺_.
 d. Dado { _X_ → _U_, _YW_ → _V_, _TZ_ → _U_, _U_ → _V_, _V_ → _W_, _S_ →
 _TV_, _T_ → _X_ }, obtener _XY⁺_, _S⁺_ y _ST⁺_.
 
+6. Demostrar que los siguientes conjuntos de dependencias funcionales son
+equivalentes entre sí.
++
+_F_ = {_A_ → _C_, _AC_ → _D_, _E_ → _AD_, _E_ → _H_}
++
+_G_ = {_AC_ → _D_, _E_ → _AH_}
+
 7. Dada la relación _R(A, B, C, D, E, F, G, H)_, hallar el cubrimiento
 minimal de los siguientes conjuntos de dependencias funcionales, e
 indicar cuáles de ellos son equivalentes entre sí.
@@ -275,13 +269,26 @@ d. { _A_ → _BE_, _CH_ → _D_, _E_ → _F_, _E_ → _G_, _AD_ → _EF_ }
 
 e. { _A_ → _BE_, _C_ → _DC_, _E_ → _EFG_, _E_ → _G_, _AD_ → _EFG_ }
 
-8. Sea _R(A, B, C, D, E, F)_ y el conjunto de dependencias funcionales
+=== Parte II: Formas Normales
+
+1. Dada la relación _R(A, B, C, D, E)_ encontrar *todas* las claves de
+_R_ con respecto a los siguientes conjuntos de dependencias funcionales.
+
+a. { _A_ → _BC_, _C_ → _DE_ }
+
+b. { _A_ → _B_, _B_ → _C_, _C_ → _D_ }
+
+c. { _A_ → _B_, _B_ → _C_, _C_ → _D_, _D_ → _A_ }
+
+d. { _A_ → _B_, _BD_ → _C_ }
+
+e. { _AB_ → _C_, _C_ → _D_, _BD_ → _E_ }
+
+2. Sea _R(A, B, C, D, E, F)_ y el conjunto de dependencias funcionales
 _F_ = { _A_ → _CB_, _A_ → _F_, _C_ → _E_, _D_ → _E_, _F_ → _A_ }. Hallar
 *todas* las claves—y ver que son minimales.
 
-=== Parte II: Formas Normales
-
-1. Sea la relación _R(A, B, C, D, E, F)_ y el conjunto de dependencias
+3. Sea la relación _R(A, B, C, D, E, F)_ y el conjunto de dependencias
 funcionales F = { _A_ → _BC_, _A_ → _F_, _C_ → _E_, _D_ → _E_, _F_ → _A_
 }.
 
@@ -289,7 +296,7 @@ a. Hallar las claves de _R_.
 
 b. Decir en qué forma normal se encuentra _R_. Justificar.
 
-2. Sea la relación _R(A, B, C, D, E, F, G, H, I)_ y el conjunto de
+4. Sea la relación _R(A, B, C, D, E, F, G, H, I)_ y el conjunto de
 dependencias funcionales F = { _A_ → _BC_, _A_ → _F_, _C_ → _E_, _CD_ →
 _EI_, _F_ → _GH_ }.
 
@@ -297,7 +304,7 @@ a. Hallar las claves de _R_.
 
 b. Decir en qué forma normal se encuentra _R_. Justificar.
 
-3. Dada la siguiente relación con su conjunto de dependencias
+5. Dada la siguiente relación con su conjunto de dependencias
 funcionales:
 +
 f1(pilote, escudería, circuito, cant_vueltas, long_circuito, año,
@@ -313,11 +320,11 @@ pilote año → escudería
 +
 Indicar en qué forma normal se encuentra la relación f1.
 
-4. Utilizando las dependencias funcionales que se identificaron en el
+6. Utilizando las dependencias funcionales que se identificaron en el
 *Ejercicio 1b de Dependencias Funcionales*, indicar en que forma normal
 se encuentra la relación empleade.
 
-5. Hallar las claves e indicar en qué forma normal se encuentra la
+7. Hallar las claves e indicar en qué forma normal se encuentra la
 relación _R(A, B, C, D, E, F, G)_ con respecto a los siguientes
 conjuntos de dependencias funcionales:
 
@@ -330,10 +337,10 @@ c. F = { _A_ → _C_, _B_ → _D_, _B_ → _F_, _A_ → _G_, _A_ → _B_ }.
 
 d. F = { _ABE_ → _CDFG_, _E_ → _A_ }.
 
-6. Para los ítems del *Ejercicio 7 de Dependencias Funcionales*,
+8. Para los ítems del *Ejercicio 7 de Dependencias Funcionales*,
 descomponer a BCNF.
 
-7. Descomponer a BCNF las relaciones de los *Ejercicios 1 y 2*.
+9. Descomponer a BCNF las relaciones de los *Ejercicios 1 y 2*.
 
 == Práctica 3
 

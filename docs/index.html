@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<meta name="author" content="v2, 2024-03-08">
+<meta name="author" content="v2, 2024-04-03">
 <title>Bases de Datos I: Prácticas</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -442,7 +442,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Bases de Datos I: Prácticas</h1>
 <div class="details">
-<span id="author" class="author">v2, 2024-03-08</span><br>
+<span id="author" class="author">v2, 2024-04-03</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Contenidos</div>
@@ -758,29 +758,6 @@ reglas de Armstrong, en caso contrario encontrar algún contraejemplo.</p>
 </div>
 </li>
 <li>
-<p>Dada la relación <em>R(A, B, C, D, E)</em> encontrar <strong>todas</strong> las claves de
-<em>R</em> con respecto a los siguientes conjuntos de dependencias funcionales.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha">
-<li>
-<p>{ <em>A</em> → <em>BC</em>, <em>C</em> → <em>DE</em> }</p>
-</li>
-<li>
-<p>{ <em>A</em> → <em>B</em>, <em>B</em> → <em>C</em>, <em>C</em> → <em>D</em> }</p>
-</li>
-<li>
-<p>{ <em>A</em> → <em>B</em>, <em>B</em> → <em>C</em>, <em>C</em> → <em>D</em>, <em>D</em> → <em>A</em> }</p>
-</li>
-<li>
-<p>{ <em>A</em> → <em>B</em>, <em>BD</em> → <em>C</em> }</p>
-</li>
-<li>
-<p>{ <em>AB</em> → <em>C</em>, <em>C</em> → <em>D</em>, <em>BD</em> → <em>E</em> }</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
 <p>Demostrar las reglas de descomposición y de pseudo transitividad usando las
 reglas de Armstrong.</p>
 </li>
@@ -810,6 +787,16 @@ obtener <em>U⁺</em>, <em>UW⁺</em> y <em>W⁺</em>.</p>
 </div>
 </li>
 <li>
+<p>Demostrar que los siguientes conjuntos de dependencias funcionales son
+equivalentes entre sí.</p>
+<div class="paragraph">
+<p><em>F</em> = {<em>A</em> → <em>C</em>, <em>AC</em> → <em>D</em>, <em>E</em> → <em>AD</em>, <em>E</em> → <em>H</em>}</p>
+</div>
+<div class="paragraph">
+<p><em>G</em> = {<em>AC</em> → <em>D</em>, <em>E</em> → <em>AH</em>}</p>
+</div>
+</li>
+<li>
 <p>Dada la relación <em>R(A, B, C, D, E, F, G, H)</em>, hallar el cubrimiento
 minimal de los siguientes conjuntos de dependencias funcionales, e
 indicar cuáles de ellos son equivalentes entre sí.</p>
@@ -833,11 +820,6 @@ indicar cuáles de ellos son equivalentes entre sí.</p>
 </ol>
 </div>
 </li>
-<li>
-<p>Sea <em>R(A, B, C, D, E, F)</em> y el conjunto de dependencias funcionales
-<em>F</em> = { <em>A</em> → <em>CB</em>, <em>A</em> → <em>F</em>, <em>C</em> → <em>E</em>, <em>D</em> → <em>E</em>, <em>F</em> → <em>A</em> }. Hallar
-<strong>todas</strong> las claves—y ver que son minimales.</p>
-</li>
 </ol>
 </div>
 </div>
@@ -845,6 +827,34 @@ indicar cuáles de ellos son equivalentes entre sí.</p>
 <h3 id="_parte_ii_formas_normales">Parte II: Formas Normales</h3>
 <div class="olist arabic">
 <ol class="arabic">
+<li>
+<p>Dada la relación <em>R(A, B, C, D, E)</em> encontrar <strong>todas</strong> las claves de
+<em>R</em> con respecto a los siguientes conjuntos de dependencias funcionales.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha">
+<li>
+<p>{ <em>A</em> → <em>BC</em>, <em>C</em> → <em>DE</em> }</p>
+</li>
+<li>
+<p>{ <em>A</em> → <em>B</em>, <em>B</em> → <em>C</em>, <em>C</em> → <em>D</em> }</p>
+</li>
+<li>
+<p>{ <em>A</em> → <em>B</em>, <em>B</em> → <em>C</em>, <em>C</em> → <em>D</em>, <em>D</em> → <em>A</em> }</p>
+</li>
+<li>
+<p>{ <em>A</em> → <em>B</em>, <em>BD</em> → <em>C</em> }</p>
+</li>
+<li>
+<p>{ <em>AB</em> → <em>C</em>, <em>C</em> → <em>D</em>, <em>BD</em> → <em>E</em> }</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Sea <em>R(A, B, C, D, E, F)</em> y el conjunto de dependencias funcionales
+<em>F</em> = { <em>A</em> → <em>CB</em>, <em>A</em> → <em>F</em>, <em>C</em> → <em>E</em>, <em>D</em> → <em>E</em>, <em>F</em> → <em>A</em> }. Hallar
+<strong>todas</strong> las claves—y ver que son minimales.</p>
+</li>
 <li>
 <p>Sea la relación <em>R(A, B, C, D, E, F)</em> y el conjunto de dependencias
 funcionales F = { <em>A</em> → <em>BC</em>, <em>A</em> → <em>F</em>, <em>C</em> → <em>E</em>, <em>D</em> → <em>E</em>, <em>F</em> → <em>A</em>
@@ -1087,18 +1097,18 @@ Katsuragi y a Ritsuko Akagi.</p>
 <ol class="loweralpha">
 <li>
 <p>El nombre y la dirección de les socies que pidieron prestados a la
-biblioteca todos los libros escritos por Borges.</p>
+biblioteca, todos los libros escritos por Borges.</p>
 </li>
 <li>
 <p>El id de les socies de Grand Bourg que nunca pidieron prestado un
 libro de la editorial Sudamericana.</p>
 </li>
 <li>
-<p>El titulo de los libros de la editorial Planeta que fueron prestados
+<p>El título de los libros de la editorial Planeta que fueron prestados
 tanto a socies de San Miguel como a socies de Los Polvorines.</p>
 </li>
 <li>
-<p>Los préstamos realizados a socies de José C. Paz por más de 5 días y
+<p>Los préstamos realizados a socies de José C. Paz por más de 5 días, y
 los realizados a socies de Bella Vista por más de 3 días. Se pide
 mostrar el nombre de le socie, el título del libro y la fecha del
 préstamo.</p>
@@ -1204,7 +1214,7 @@ la tabla cliente_vip (si todavía no está insertado en esa tabla).</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-03-08 18:43:15 -0300
+Last updated 2024-04-03 21:52:52 -0300
 </div>
 </div>
 </body>
