@@ -340,7 +340,7 @@ d. F = { _ABE_ → _CDFG_, _E_ → _A_ }.
 8. Para los ítems del *Ejercicio 7 de Dependencias Funcionales*,
 descomponer a BCNF.
 
-9. Descomponer a BCNF las relaciones de los *Ejercicios 1 y 2*.
+9. Descomponer a 3NF las relaciones de los *Ejercicios 3 y 4*.
 
 == Práctica 3
 
