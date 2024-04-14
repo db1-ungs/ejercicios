@@ -1,5 +1,5 @@
 = Bases de Datos I: Prácticas
-v2, {docdate}
+v2.1, {docdate}
 :toc-title: Contenidos
 :toc: left
 :tabsize: 4
@@ -337,10 +337,26 @@ c. F = { _A_ → _C_, _B_ → _D_, _B_ → _F_, _A_ → _G_, _A_ → _B_ }.
 
 d. F = { _ABE_ → _CDFG_, _E_ → _A_ }.
 
-8. Para los ítems del *Ejercicio 7 de Dependencias Funcionales*,
+8. Dada la relación _R(A, B, C, D, E, G)_ y el conjunto de dependencias funcionales
+F = { _D_ → _AE_, _B_ → _CD_, _A_ → _G_ }.
+
+a. ¿En qué forma normal está la relación _R_? Justifique su respuesta.
+
+b. En el caso de que _R_ no esté en 3NF, proponga una descomposición en relaciones
+que sí lo estén, sin que se pierda ninguna dependencia funcional.
+
+9. Considere la relación _R(A, B, C, D, E)_ y el conjunto de dependencias
+funcionales F =  { _CE_ → _A_, _E_ → _B_, _A_ → _D_ }.
+
+a. ¿En qué forma normal está la relación _R_? Justifique su respuesta.
+
+b. En el caso de que _R_ no esté en 3NF, proponga una descomposición
+en relaciones que sí lo estén, sin que se pierda ninguna dependencia funcional.
+
+10. Para los ítems del *Ejercicio 7 de Dependencias Funcionales*,
 descomponer a BCNF.
 
-9. Descomponer a 3NF las relaciones de los *Ejercicios 3 y 4*.
+11. Descomponer a 3NF las relaciones de los *Ejercicios 3 y 4*.
 
 == Práctica 3
 
