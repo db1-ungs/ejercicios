@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.22">
-<meta name="author" content="v2.1, 2024-04-14">
+<meta name="author" content="v2.1, 2024-04-29">
 <title>Bases de Datos I: Prácticas</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -440,7 +440,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Bases de Datos I: Prácticas</h1>
 <div class="details">
-<span id="author" class="author">v2.1, 2024-04-14</span><br>
+<span id="author" class="author">v2.1, 2024-04-29</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Contenidos</div>
@@ -1171,6 +1171,56 @@ primera parte.</p>
 <p>Resolver mediante SQL todos los ítems del Ejercicio 2 de la primera
 parte.</p>
 </li>
+<li>
+<p>Dados los siguientes schemas:</p>
+<div class="paragraph">
+<p>chef (id, nombre, apellido, nacionalidad)</p>
+</div>
+<div class="paragraph">
+<p>trabaja_en (id_chef, id_rest, fecha_ingreso)</p>
+</div>
+<div class="paragraph">
+<p>restaurant (id, nombre, nacionalidad, puntaje)</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha">
+<li>
+<p>Escribir una sentencia SQL para obtener, el nombre y el apellido de les
+chefs y el nombre del restaurant donde trabajan, para todes les chefs de mayor
+antiguedad (considerando la antiguedad sin discriminar por restaurant).</p>
+</li>
+<li>
+<p>Escribir una sentencia SQL para obtener el nombre, el apellido, y la nacionalidad
+de les chefs que trabajan en al menos dos restaurants con puntaje mayor a 4.8.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Dados los siguientes schemas:</p>
+<div class="paragraph">
+<p>artista (id, nombre, comp_disco, direccion)</p>
+</div>
+<div class="paragraph">
+<p>concierto (id_artista, id_estadio, fecha)</p>
+</div>
+<div class="paragraph">
+<p>estadio (id, nombre, capacidad, direccion)</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha">
+<li>
+<p>Escribir una sentencia SQL para obtener, de cada artista que haya dado al menos 20
+conciertos en distintos estadios, su nombre, su compañía discográfica, y la cantidad
+de conciertos.</p>
+</li>
+<li>
+<p>Escribir una sentencia SQL para obtener los nombres de les artistas que dieron
+conciertos en todos los estadios que tengan capacidad mayor a 50.000.</p>
+</li>
+</ol>
+</div>
+</li>
 </ol>
 </div>
 </div>
@@ -1242,7 +1292,7 @@ la tabla cliente_vip (si todavía no está insertado en esa tabla).</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-04-14 19:07:47 -0300
+Last updated 2024-04-29 00:20:53 -0300
 </div>
 </div>
 </body>

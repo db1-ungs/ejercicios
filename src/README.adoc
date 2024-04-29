@@ -483,6 +483,36 @@ primera parte.
 5. Resolver mediante SQL todos los ítems del Ejercicio 2 de la primera
 parte.
 
+6. Dados los siguientes schemas:
++
+chef (id, nombre, apellido, nacionalidad)
++
+trabaja_en (id_chef, id_rest, fecha_ingreso)
++
+restaurant (id, nombre, nacionalidad, puntaje)
+
+a. Escribir una sentencia SQL para obtener, el nombre y el apellido de les
+chefs y el nombre del restaurant donde trabajan, para todes les chefs de mayor
+antiguedad (considerando la antiguedad sin discriminar por restaurant).
+
+b. Escribir una sentencia SQL para obtener el nombre, el apellido, y la nacionalidad
+de les chefs que trabajan en al menos dos restaurants con puntaje mayor a 4.8.
+
+7. Dados los siguientes schemas:
++
+artista (id, nombre, comp_disco, direccion)
++
+concierto (id_artista, id_estadio, fecha)
++
+estadio (id, nombre, capacidad, direccion)
+
+a. Escribir una sentencia SQL para obtener, de cada artista que haya dado al menos 20
+conciertos en distintos estadios, su nombre, su compañía discográfica, y la cantidad
+de conciertos.
+
+b. Escribir una sentencia SQL para obtener los nombres de les artistas que dieron
+conciertos en todos los estadios que tengan capacidad mayor a 50.000.
+
 == Práctica 4
 
 === Parte I: Stored Procedures
