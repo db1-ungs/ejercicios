@@ -269,6 +269,9 @@ d. { _A_ → _BE_, _CH_ → _D_, _E_ → _F_, _E_ → _G_, _AD_ → _EF_ }
 
 e. { _A_ → _BE_, _C_ → _DC_, _E_ → _EFG_, _E_ → _G_, _AD_ → _EFG_ }
 
+8. Dada la relación _R(A, B, C, D, E, F)_, hallar el cubrimiento minimal para 
+_F_ = { _AE_ → _CDF_, _B_ →  _D_, _B_ →  _E_, _A_ →  _C_, _CE_ →  _DF_, _F_ →  _AC_, _C_ →  _F }.
+
 === Parte II: Formas Normales
 
 1. Dada la relación _R(A, B, C, D, E)_ encontrar *todas* las claves de
