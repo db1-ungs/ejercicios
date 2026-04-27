@@ -269,7 +269,7 @@ d. { _A_ → _BE_, _CH_ → _D_, _E_ → _F_, _E_ → _G_, _AD_ → _EF_ }
 
 e. { _A_ → _BE_, _C_ → _DC_, _E_ → _EFG_, _E_ → _G_, _AD_ → _EFG_ }
 
-8. Dada la relación _R(A, B, C, D, E, F)_, hallar el cubrimiento minimal para 
+8. Dada la relación _R(A, B, C, D, E, F)_, hallar el cubrimiento minimal para
 _F_ = { _AE_ → _CDF_, _B_ →  _D_, _B_ →  _E_, _A_ →  _C_, _CE_ →  _DF_, _F_ →  _AC_, _C_ →  _F }.
 
 === Parte II: Formas Normales
@@ -500,21 +500,6 @@ antiguedad (considerando la antiguedad sin discriminar por restaurant).
 
 b. Escribir una sentencia SQL para obtener el nombre, el apellido, y la nacionalidad
 de les chefs que trabajan en al menos dos restaurants con puntaje mayor a 4.8.
-
-7. Dados los siguientes schemas:
-+
-artista (id, nombre, comp_disco, direccion)
-+
-concierto (id_artista, id_estadio, fecha)
-+
-estadio (id, nombre, capacidad, direccion)
-
-a. Escribir una sentencia SQL para obtener, de cada artista que haya dado al menos 20
-conciertos en distintos estadios, su nombre, su compañía discográfica, y la cantidad
-de conciertos.
-
-b. Escribir una sentencia SQL para obtener los nombres de les artistas que dieron
-conciertos en todos los estadios que tengan capacidad mayor a 50.000.
 
 == Práctica 4
 
